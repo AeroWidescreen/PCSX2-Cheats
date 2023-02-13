@@ -1,0 +1,4 @@
+gametitle=Gran Turismo 3 [SCUS-97102] (U)
+comment=Full Trigger Range (must be combined with Silent's Adjusted Trigger Sensitivity patch)
+author=Aero_
+patch=1,EE,20211014,extended,00000000

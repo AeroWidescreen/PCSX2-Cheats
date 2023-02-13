@@ -1,0 +1,9 @@
+gametitle=Gran Turismo 4 [SCUS-97328] (U)
+comment=Full Trigger Range (must be combined with Silent's Adjusted Trigger Sensitivity patch)
+author=Aero_
+// Throttle
+patch=1,EE,1043BEF0,extended,00000000
+// Brake
+patch=1,EE,1043BF50,extended,00000000
+// Reverse
+patch=1,EE,1043C010,extended,00000000

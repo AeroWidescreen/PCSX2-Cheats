@@ -1,0 +1,7 @@
+gametitle=Gran Turismo 3 [PBPX-95503] (U)
+comment=Access Hidden Car Classes (Arcade Mode)
+author=Aero_
+patch=1,EE,10114C04,extended,00000009 // Single Race
+patch=1,EE,10114E2C,extended,00000009 // Free Run
+patch=1,EE,10114F34,extended,00000009 // 2 Player Battle (P1)
+patch=1,EE,10114F4C,extended,00000009 // 2 Player Battle (P2)

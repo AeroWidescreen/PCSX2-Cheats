@@ -1,0 +1,7 @@
+gametitle=Gran Turismo 3 [SCES-50294] (E)
+comment=Access Hidden Car Classes (Arcade Mode)
+author=Aero_
+patch=1,EE,10114CEC,extended,00000009 // Single Race
+patch=1,EE,10114F14,extended,00000009 // Free Run
+patch=1,EE,1011501C,extended,00000009 // 2 Player Battle (P1)
+patch=1,EE,10115034,extended,00000009 // 2 Player Battle (P2)
