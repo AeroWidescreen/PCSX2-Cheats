@@ -1,0 +1,5 @@
+gametitle=Gran Turismo 4 [SCUS-97328] (U)
+comment=Analog HUD For All Camera Views
+comment=Created by Aero_
+patch=1,EE,2039CE80,extended,1000000D
+patch=1,EE,2039CEB8,extended,24020000
