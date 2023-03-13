@@ -1,4 +1,0 @@
-gametitle=Gran Turismo 3 [SCES-50294] (E)
-comment=Full Trigger Range (must be combined with Silent's Adjusted Trigger Sensitivity patch)
-author=Aero_
-patch=1,EE,20211F5C,extended,00000000

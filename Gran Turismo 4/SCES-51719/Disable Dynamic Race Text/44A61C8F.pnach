@@ -2,3 +2,4 @@ gametitle=Gran Turismo 4 [SCES-51719] (E)
 comment=Disable Dynamic Race Text (FULL THROTTLE / GET READY TO DRIVE)
 author=Aero_
 patch=1,EE,2039DD4C,extended,00000000
+patch=1,EE,2039DA74,extended,00000000

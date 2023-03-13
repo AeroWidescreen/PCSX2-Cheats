@@ -2,3 +2,4 @@ gametitle=Gran Turismo 4 [SCUS-97328] (U)
 comment=Disable Dynamic Race Text (FULL THROTTLE / GET READY TO DRIVE)
 author=Aero_
 patch=1,EE,2039DA54,extended,00000000
+patch=1,EE,2039D77C,extended,00000000
