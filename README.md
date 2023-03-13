@@ -10,6 +10,8 @@
 ### Gran Turismo 4  
 • Analog HUD For All Camera Views : Allows the analog HUD to be used for the chase camera.  
 
+• Autoboot in 480p : The NTSC release of GT4 will always use progressive scan as its default setting. Based on [Silent's Deinterlance](https://github.com/CookiePLMonster/Console-Cheat-Codes/tree/master/PS2/Gran%20Turismo%204/Deinterlace) patch.  
+
 • Digital HUD For All Camera Views : Allows the digital HUD to be used for the roof and bumper camera.  
 
 • Disable Dynamic Race Text : Removes the text that appears at the bottom of the screen before a race or during a pitstop.  
