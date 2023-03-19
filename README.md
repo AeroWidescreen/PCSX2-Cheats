@@ -19,3 +19,5 @@
 • Full Trigger Sensitivity : Allows the full range of the L2 / R2 (LT / RT) triggers to be used for throttle and braking. Based on [Silent's Adjusted Trigger Sensitivity](https://github.com/CookiePLMonster/Console-Cheat-Codes/tree/master/PS2/Gran%20Turismo%203/Adjusted%20triggers%20sensitivity) patch.   
 
 • GT3 Camera Placement : Moves the external camera closer to the ground, in the same position as Gran Turismo 3.  
+
+• Widescreen Text : Corrects the aspect ratio of text for 16:9 widescreen, similar to GT4 Online.  
