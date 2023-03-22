@@ -21,3 +21,6 @@
 • GT3 Camera Placement : Moves the external camera closer to the ground, in the same position as Gran Turismo 3.  
 
 • Widescreen Text : Corrects the aspect ratio of text for 16:9 widescreen, similar to GT4 Online.  
+
+### Need for Speed: ProStreet  
+• Widescreen Fix : Enables a native widescreen mode that was previously inaccesible and corrects the FOV.  
