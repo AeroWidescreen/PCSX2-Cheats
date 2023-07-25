@@ -1,5 +1,6 @@
 gametitle=Gran Turismo 4 [SCUS-97328] (U)
-comment=GT3 Camera Placement
+[GT3 Camera Placement]
+comment=Moves the exterior camera closer to the ground like Gran Turismo 3.
 author=Aero_
 patch=1,EE,2037B304,extended,0812555E // j 00495578
 patch=1,EE,20495578,extended,8E180008 // lw t8,0x8(s0)

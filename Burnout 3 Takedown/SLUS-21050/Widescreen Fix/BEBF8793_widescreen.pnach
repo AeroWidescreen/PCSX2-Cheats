@@ -1,5 +1,7 @@
 gametitle=Burnout 3: Takedown [SLUS-21050] (U)
-comment=Widescreen Fix
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Corrects the aspect ratio of the FOV, HUD, and FMVs for 16:9.
 author=Aero_
 // FOV (16:9)
 patch=1,EE,00665ECD,byte,01 // enables widescreen FOV values

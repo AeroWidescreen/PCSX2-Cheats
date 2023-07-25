@@ -1,5 +1,6 @@
 gametitle=Gran Turismo 3 [SCUS-97102] (U)
-comment=Access Hidden Car Classes (Arcade Mode)
+[Access Hidden Car Classes (Arcade Mode)]
+comment=Allows users to access the time trial and debug car classes in arcade mode.
 author=Aero_
 patch=1,EE,10114C04,extended,00000009 // Single Race
 patch=1,EE,10114E2C,extended,00000009 // Free Run

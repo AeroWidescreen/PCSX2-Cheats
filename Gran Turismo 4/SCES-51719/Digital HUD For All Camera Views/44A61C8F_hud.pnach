@@ -1,5 +1,0 @@
-gametitle=Gran Turismo 4 [SCES-51719] (E)
-comment=Digital HUD For All Camera Views
-comment=Created by Aero_
-patch=1,EE,2039D178,extended,1000000D
-patch=1,EE,2039D1B0,extended,24020001

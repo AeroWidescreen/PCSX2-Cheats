@@ -1,6 +1,6 @@
 gametitle=Gran Turismo 4 [SCUS-97328] (U)
-comment=Autoboot in 480p
-comment=Converted by Aero_
+[Autoboot in 480p]
+comment=The game will always start in 480p instead of 480i.
 author=Silent
 patch=1,EE,204364A8,extended,AE0516B0
 patch=1,EE,10436598,extended,10E8

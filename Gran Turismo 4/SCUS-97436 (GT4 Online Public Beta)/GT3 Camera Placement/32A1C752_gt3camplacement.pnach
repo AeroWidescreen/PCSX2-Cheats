@@ -1,5 +1,6 @@
 gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
-comment=GT3 Camera Placement
+[GT3 Camera Placement]
+comment=Moves the exterior camera closer to the ground like Gran Turismo 3.
 author=Aero_
 patch=1,EE,2023FD7C,extended,0816A2B4 // j 0x005A8AD0
 patch=1,EE,205A8AD0,extended,8E180008 // lw t8,0x8(s0)
