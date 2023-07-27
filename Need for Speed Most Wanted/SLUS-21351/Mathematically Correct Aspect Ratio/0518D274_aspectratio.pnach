@@ -1,0 +1,11 @@
+gametitle=Need for Speed Most Wanted [SLUS-21351] (U)
+[Mathematically Correct Aspect Ratio]
+comment=Adjusts the default aspect ratio so the game is not stretched.
+author=Aero_
+// 512x480
+// Correct FOV Aspect Ratio
+patch=1,EE,2054BA34,extended,3F700000 // Normal Mode 
+patch=1,EE,2054BA38,extended,3F340000 // Widescreen Mode
+// Correct Render Aspect Ratio
+patch=1,EE,2054E170,extended,3F088889 // Normal Mode
+patch=1,EE,2054E174,extended,3F360B61 // Widescreen Mode

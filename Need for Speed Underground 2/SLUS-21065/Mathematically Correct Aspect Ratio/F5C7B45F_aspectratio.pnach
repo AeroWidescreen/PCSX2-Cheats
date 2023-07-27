@@ -1,0 +1,11 @@
+gametitle=Need for Speed Underground 2 [SLUS-21065] (U)
+[Mathematically Correct Aspect Ratio]
+comment=Adjusts the default aspect ratio so the game is not stretched.
+author=Aero_
+// 512x444
+// Correct FOV Aspect Ratio
+patch=1,EE,2056FB44,extended,3F5E0000 // Normal Mode 
+patch=1,EE,2056FB48,extended,3F268000 // Widescreen Mode
+// Correct Render Aspect Ratio
+patch=1,EE,2056FBF4,extended,3F5E0000 // Normal Mode
+patch=1,EE,2056FBF8,extended,3F940000 // Widescreen Mode
