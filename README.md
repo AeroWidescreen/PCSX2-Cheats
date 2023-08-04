@@ -22,11 +22,5 @@
 
 • Widescreen Text : Corrects the aspect ratio of text for 16:9 widescreen, similar to GT4 Online.  
 
-### Need for Speed Underground 2  
-• Mathematically Correct Aspect Ratio : Adjusts the default aspect ratio so the game is not stretched.  
-
-### Need for Speed Most Wanted  
-• Mathematically Correct Aspect Ratio : Adjusts the default aspect ratio so the game is not stretched.  
-
 ### Need for Speed ProStreet  
 • Widescreen Fix : Enables a native widescreen mode that was previously inaccesible and corrects the FOV.  
