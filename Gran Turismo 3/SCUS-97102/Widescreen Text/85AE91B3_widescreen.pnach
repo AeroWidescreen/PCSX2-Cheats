@@ -1,0 +1,37 @@
+gametitle=Gran Turismo 3 [SCUS-97102] (U)
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Corrects the text aspect ratio when 16:9 is selected in the options menu.
+author=Aero_
+patch=1,EE,2023CBD4,extended,08124DC8 // j 0x00493720
+patch=1,EE,20493720,extended,3C09002F // lui t1,0x002F : Widescreen Mode 1st-Half of Memory Address
+patch=1,EE,20493724,extended,3529424C // ori t1,0x424C : Widescreen Mode 2nd-Half of Memory Address
+patch=1,EE,20493728,extended,812A0000 // lb t2,(t1)
+patch=1,EE,2049372C,extended,3C013F80 // lui at,0x3F80 : Text Width 1st-Half of Float Value (4:3)
+patch=1,EE,20493730,extended,34210000 // ori at,0x0000 : Text Width 2nd-Half of Float Value (4:3)
+patch=1,EE,20493734,extended,11400003 // beqz t2,0x00493744 : Jumps if Widescreen Mode is Disabled
+patch=1,EE,20493738,extended,00000000 // nop
+patch=1,EE,2049373C,extended,3C013F40 // lui at,0x3F40 : Text Width 1st-Half of Float Value (16:9)
+patch=1,EE,20493740,extended,34210000 // ori at,0x0000 : Text Width 2nd-Half of Float Value (16:9)
+patch=1,EE,20493744,extended,44810000 // mtc1 at,f00
+patch=1,EE,20493748,extended,3C013F80 // lui at,0x3F80 : Text Height 1st-Half of Float Value
+patch=1,EE,2049374C,extended,34210000 // ori at,0x0000 : Text Height 2nd-Half of Float Value
+patch=1,EE,20493750,extended,44810800 // mtc1 at,f01
+patch=1,EE,20493754,extended,0808F2F7 // j 0x0023CBDC
+patch=1,EE,2023CC14,extended,E6210260 // swc1 f01,0x260(s1) : Uses f01 to seperate Text Height from Text Width
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+patch=1,EE,20197C84,extended,08124DD8 // j 0x00493760
+patch=1,EE,20493760,extended,3C09002F // lui t1,0x002F : Widescreen Mode 1st-Half of Memory Address
+patch=1,EE,20493764,extended,3529424C // ori t1,0x424C : Widescreen Mode 2nd-Half of Memory Address
+patch=1,EE,20493768,extended,812A0000 // lb t2,(t1)
+patch=1,EE,2049376C,extended,3C013F80 // lui at,0x3F80 : Text Position 1st-Half of Float Value (4:3)
+patch=1,EE,20493770,extended,34210000 // ori at,0x0000 : Text Position 2nd-Half of Float Value (4:3)
+patch=1,EE,20493774,extended,11400003 // beqz t2,0x00493784 : Jumps if Widescreen Mode is Disabled
+patch=1,EE,20493778,extended,00000000 // nop
+patch=1,EE,2049377C,extended,3C0B3F40 // lui t3,0x3F40 : Text Position 1st-Half of Float Value (16:9)
+patch=1,EE,20493780,extended,356B0000 // ori t3,0x0000 : Text Position 2nd-Half of Float Value (16:9)
+patch=1,EE,20493784,extended,448B0000 // mtc1 t3,f00
+patch=1,EE,20493788,extended,08065F22 // j 0x00197C88
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+patch=1,EE,2018A948,extended,10000003 // b 0x0018A958 : Prevents License Reward Text from being overcorrected in widescreen
+patch=1,EE,20193658,extended,10000003 // b 0x00193668 : Prevents HUD Text from being overcorrected in widescreen
