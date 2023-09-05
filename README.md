@@ -7,6 +7,8 @@
   
 • Full Trigger Sensitivity : Allows the full range of the L2 / R2 (LT / RT) triggers to be used for throttle and braking. Based on [Silent's Adjusted Trigger Sensitivity](https://github.com/CookiePLMonster/Console-Cheat-Codes/tree/master/PS2/Gran%20Turismo%203/Adjusted%20triggers%20sensitivity) patch.   
 
+• Widescreen Text : Corrects the aspect ratio of text for 16:9 widescreen, similar to GT4 Online.  
+
 ### Gran Turismo 4  
 • Analog HUD For All Camera Views : Allows the analog HUD to be used for the chase camera.  
 
