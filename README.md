@@ -1,15 +1,20 @@
 # Available Patches  
+
 ### Burnout 3: Takedown  
 • Widescreen Fix : Adds widescreen support by correcting the FOV, HUD, Menus, and FMVs.  
 
 ### Gran Turismo 3   
-• Access Hidden Car Classes : Allows all car classes to be selectable in arcade mode, including time trial and debug car classes. 
+• Access Hidden Car Classes : Allows all car classes to be selectable in arcade mode, including time trial and debug car classes.  
+
+• Always Gold License Test : A valid completion time will always reward you a gold medal.  
   
 • Full Trigger Sensitivity : Allows the full range of the L2 / R2 (LT / RT) triggers to be used for throttle and braking. Based on [Silent's Adjusted Trigger Sensitivity](https://github.com/CookiePLMonster/Console-Cheat-Codes/tree/master/PS2/Gran%20Turismo%203/Adjusted%20triggers%20sensitivity) patch.   
 
 • Widescreen Text : Corrects the aspect ratio of text for 16:9 widescreen, similar to GT4 Online.  
 
 ### Gran Turismo 4  
+• Always Gold License Test : A valid completion time will always reward you a gold medal.  
+
 • Analog HUD For All Camera Views : Allows the analog HUD to be used for the chase camera.  
 
 • Autoboot in 480p : The NTSC release of GT4 will always use progressive scan as its default setting. Based on [Silent's Deinterlance](https://github.com/CookiePLMonster/Console-Cheat-Codes/tree/master/PS2/Gran%20Turismo%204/Deinterlace) patch.  
