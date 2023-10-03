@@ -3,10 +3,10 @@ gametitle=Gran Turismo 3 [SCES-50294] (E)
 comment=Allows the full range of the triggers (L2 & R2) to be used for throttle and brake inputs.
 author=Silent & Aero_
 // Throttle
-patch=1,EE,10212160,extended,00000064
+patch=1,EE,10212160,extended,00000062
 // Brake
-patch=1,EE,102121A8,extended,00000064
+patch=1,EE,102121A8,extended,00000062
 // Reverse
-patch=1,EE,10212238,extended,00000064
+patch=1,EE,10212238,extended,00000062
 // Input multiplier
 patch=1,EE,20211F5C,extended,00000000

@@ -3,8 +3,8 @@ gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
 comment=Allows the full range of the triggers (L2 & R2) to be used for throttle and brake inputs.
 author=Silent & Aero_
 // Throttle
-patch=1,EE,10319114,extended,00000064
+patch=1,EE,10319114,extended,00000062
 patch=1,EE,20319194,extended,00000000
 // Brake
-patch=1,EE,1031911C,extended,00000064
+patch=1,EE,1031911C,extended,00000062
 patch=1,EE,203191F0,extended,00000000
