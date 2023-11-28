@@ -1,7 +1,12 @@
 # Available Patches  
 
 ### Burnout 3: Takedown  
-• Widescreen Fix : Adds widescreen support by correcting the FOV, HUD, Menus, and FMVs.  
+• Widescreen Fix : Adds widescreen support by correcting the FOV, HUD, Menus, and FMVs. 
+
+### Gran Turismo Concept  
+• Full Trigger Sensitivity : Allows the full range of the L2 / R2 (LT / RT) triggers to be used for throttle and braking. Based on [Silent's Adjusted Trigger Sensitivity](https://github.com/CookiePLMonster/Console-Cheat-Codes/tree/master/PS2/Gran%20Turismo%20Concept/Adjusted%20triggers%20sensitivity) patch.   
+
+• Widescreen Text : Corrects the aspect ratio of text for 16:9 widescreen, similar to GT4 Online.  
 
 ### Gran Turismo 3   
 • Access Hidden Car Classes : Allows all car classes to be selectable in arcade mode, including time trial and debug car classes.  

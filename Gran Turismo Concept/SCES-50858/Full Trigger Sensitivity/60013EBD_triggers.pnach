@@ -1,0 +1,12 @@
+gametitle=Gran Turismo Concept 2002 Tokyo-Geneva [SCES-50858] (E)
+[Full Trigger Sensitivity]
+comment=Allows the full range of the triggers (L2 & R2) to be used for throttle and brake inputs.
+author=Silent & Aero_
+// Throttle
+patch=1,EE,10210750,extended,00000062
+// Brake
+patch=1,EE,10210798,extended,00000062
+// Reverse
+patch=1,EE,10210830,extended,00000062
+// Input multiplier
+patch=1,EE,20210540,extended,00000000
