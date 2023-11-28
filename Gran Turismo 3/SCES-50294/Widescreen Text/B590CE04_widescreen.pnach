@@ -35,3 +35,5 @@ patch=1,EE,20495188,extended,080662E4 // j 0x00198B90
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 patch=1,EE,2018B868,extended,10000003 // b 0x0018B878 : Prevents License Reward Text from being overcorrected in widescreen
 patch=1,EE,20194560,extended,10000003 // b 0x00194570 : Prevents HUD Text from being overcorrected in widescreen
+patch=1,EE,201B0E78,extended,10000019 // b 0x001B0EE0 : Prevents Race Results Text from being overcorrected in widescreen
+patch=1,EE,201B0FD4,extended,10000008 // b 0x001B0FF8 : Prevents Race Results from not rendering in widescreen 
