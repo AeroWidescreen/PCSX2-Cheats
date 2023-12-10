@@ -5,3 +5,8 @@ author=Aero_
 patch=1,EE,1031268C,extended,0001 // Color Depth Mode
 patch=1,EE,10312698,extended,0280 // Resolution X
 patch=1,EE,103126A0,extended,0168 // Resolution Y
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+patch=1,EE,202B0DF0,extended,10400002 // beq v0,zero,0x002B0DFC : Jumps if Widescreen Mode is Disabled
+patch=1,EE,202B0DF4,extended,3C013F40 // lui at,0x3F40 : License Trophy Aspect Ratio Float Value (4:3)
+patch=1,EE,202B0DF8,extended,3C013F80 // lui at,0x3F80 : License Trophy Aspect Ratio Float Value (16:9)
+patch=1,EE,202B0DFC,extended,34210000 // ori at,at,0x0000
