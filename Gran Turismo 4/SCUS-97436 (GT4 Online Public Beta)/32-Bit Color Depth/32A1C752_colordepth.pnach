@@ -1,0 +1,7 @@
+gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
+[32-Bit Color Depth]
+comment=Color depth will remain 32-bit while using 480p.
+author=Aero_
+patch=1,EE,1031268C,extended,0001 // Color Depth Mode
+patch=1,EE,10312698,extended,0280 // Resolution X
+patch=1,EE,103126A0,extended,0168 // Resolution Y
