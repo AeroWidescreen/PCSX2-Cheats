@@ -18,6 +18,8 @@
 • Widescreen Text : Corrects the aspect ratio of text for 16:9 widescreen, similar to GT4 Online.  
 
 ### Gran Turismo 4  
+• 32-Bit Color Depth : Color depth will remain 32-bit while using 480p.
+
 • Always Gold License Test : A valid completion time will always reward you a gold medal.  
 
 • Analog HUD For All Camera Views : Allows the analog HUD to be used for the chase camera.  
