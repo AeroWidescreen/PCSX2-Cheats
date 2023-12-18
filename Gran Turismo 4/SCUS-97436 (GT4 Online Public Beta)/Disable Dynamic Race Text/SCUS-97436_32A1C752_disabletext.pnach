@@ -2,5 +2,5 @@ gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
 [Disable Dynamic Race Text] 
 comment=Disables the text that appears at the bottom of the screen. Example: "GET READY TO DRIVE"
 author=Aero_
-patch=1,EE,201C3474,extended,00000000  
-patch=1,EE,201C306C,extended,00000000
+patch=1,EE,201C3474,extended,00000000 // GET READY TO DRIVE
+patch=1,EE,201C306C,extended,00000000 // Penalty Timer
