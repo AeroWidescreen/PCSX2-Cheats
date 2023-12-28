@@ -22,7 +22,9 @@
 • Widescreen Text : Corrects the aspect ratio of text for 16:9 widescreen, similar to GT4 Online.  
 
 ### Gran Turismo 4  
-• 32-Bit Color Depth : Color depth will remain 32-bit while using 480p.
+• 32-Bit Color Depth : Color depth will remain 32-bit while using 480p.  
+
+• Access Special Paint Colors : Hold L1 & R1 & L2 & R2 while selecting a car to access its special paint colors.  
 
 • Always Gold License Test : A valid completion time will always reward you a gold medal.  
 

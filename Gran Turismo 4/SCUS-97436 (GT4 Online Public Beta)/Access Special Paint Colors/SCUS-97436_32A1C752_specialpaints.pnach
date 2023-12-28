@@ -1,0 +1,9 @@
+gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
+[Access Special Paint Colors] 
+comment=Hold L1 & R1 & L2 & R2 while selecting a car to access its special paint colors.
+author=Aero_
+patch=1,EE,203051D0,extended,0C0C211E
+patch=1,EE,D089B0DC,extended,0000F0FF
+patch=1,EE,203051D0,extended,00000000
+patch=1,EE,D089B0DC,extended,0000B0FF
+patch=1,EE,203051D0,extended,00000000

@@ -1,0 +1,9 @@
+gametitle=Gran Turismo 4 [SCES-51719] (E)
+[Access Special Paint Colors] 
+comment=Hold L1 & R1 & L2 & R2 while selecting a car to access its special paint colors.
+author=Aero_
+patch=1,EE,20445BC0,extended,0C1122E6
+patch=1,EE,D086F99C,extended,0000F0FF
+patch=1,EE,20445BC0,extended,00000000
+patch=1,EE,D086F99C,extended,0000B0FF
+patch=1,EE,20445BC0,extended,00000000
