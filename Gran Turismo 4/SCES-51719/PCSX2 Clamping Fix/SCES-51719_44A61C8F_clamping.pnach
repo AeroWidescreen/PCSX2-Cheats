@@ -1,6 +1,0 @@
-gametitle=Gran Turismo 4 [SCES-51719] (E)
-[PCSX2 Clamping Fix] 
-comment=An attempt to solve some of the bugs caused by the normal clamping mode in PCSX2.
-author=Aero_
-patch=1,EE,203A5418,extended,00000000 // Time Interval
-patch=1,EE,2039EF48,extended,34420001 // Dynamic Race Text

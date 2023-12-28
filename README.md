@@ -38,8 +38,6 @@
 
 • GT3 Camera Placement : Moves the external camera closer to the ground, in the same position as Gran Turismo 3.  
 
-• PCSX2 Clamping Fix : An attempt to solve some of the bugs caused by the normal clamping mode in PCSX2.  
-
 • Reduce Vibration : Reduces the strength of the controller's vibration.  
 
 • Widescreen Text : Corrects the aspect ratio of text for 16:9 widescreen, similar to GT4 Online.  

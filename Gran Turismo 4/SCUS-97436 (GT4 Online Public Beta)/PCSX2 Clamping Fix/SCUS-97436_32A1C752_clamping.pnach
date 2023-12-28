@@ -1,6 +1,0 @@
-gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
-[PCSX2 Clamping Fix] 
-comment=An attempt to solve some of the bugs caused by the normal clamping mode in PCSX2.
-author=Aero_
-patch=1,EE,201CAD80,extended,00000000 // Time Interval
-patch=1,EE,201C47C8,extended,34420001 // Dynamic Race Text
