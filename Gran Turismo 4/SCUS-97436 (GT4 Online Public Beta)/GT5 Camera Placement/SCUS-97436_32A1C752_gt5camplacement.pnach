@@ -1,0 +1,18 @@
+gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
+[GT5 Camera Placement]
+comment=Moves the exterior camera further from the ground like Gran Turismo 5.
+author=Aero_
+patch=1,EE,2023FD7C,extended,0816A2B4 // j 0x005A8AD0
+patch=1,EE,205A8AD0,extended,8E180008 // lw t8,0x8(s0)
+patch=1,EE,205A8AD4,extended,3C19C0C0 // lui t9,0xC0C0
+patch=1,EE,205A8AD8,extended,00000000 // nop
+patch=1,EE,205A8ADC,extended,3C19BFF3 // lui t9,0xBFF3 : Y-Axis 1st-Half of Float Value
+patch=1,EE,205A8AE0,extended,37393333 // ori t9,0x3333 : Y-Axis 2nd-Half of Float Value
+patch=1,EE,205A8AE4,extended,AE190004 // sw t9,0x4(s0)
+patch=1,EE,205A8AE8,extended,3C19C0E0 // lui t9,0xC0E0 : Z-Axis 1st-Half of Float Value
+patch=1,EE,205A8AEC,extended,37390000 // ori t9,0x0000 : Z-Axis 2nd-Half of Float Value
+patch=1,EE,205A8AF0,extended,AE190008 // sw t9,0x8(s0)
+patch=1,EE,205A8AF4,extended,C6010000 // lwc1 f01,(s0)
+patch=1,EE,205A8AF8,extended,C6020004 // lwc1 f02,0x4(s0)
+patch=1,EE,205A8AFC,extended,C6000008 // lwc1 f00,0x8(s0)
+patch=1,EE,205A8B00,extended,0808FF62 // j 0x0023FD88
