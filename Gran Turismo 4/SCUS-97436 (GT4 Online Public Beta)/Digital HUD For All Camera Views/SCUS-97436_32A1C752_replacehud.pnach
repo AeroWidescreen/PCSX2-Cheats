@@ -1,0 +1,6 @@
+gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
+[Digital HUD For All Camera Views]
+description=The digital tachometer will be used for the bumper camera.
+author=Aero_
+patch=1,EE,201C2668,extended,1000000F
+patch=1,EE,2039CEB8,extended,24020001

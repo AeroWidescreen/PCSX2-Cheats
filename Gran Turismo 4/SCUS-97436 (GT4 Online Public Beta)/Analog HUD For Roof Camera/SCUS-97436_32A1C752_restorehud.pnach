@@ -1,0 +1,5 @@
+gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
+[Analog HUD for Roof Camera]
+description=Restores the default HUD behavior of retail GT4.
+author=Aero_
+patch=1,EE,206EC59C,extended,001C2688
