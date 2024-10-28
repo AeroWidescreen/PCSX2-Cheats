@@ -38,7 +38,7 @@
 
 • Full Trigger Sensitivity : Allows the full range of the L2 / R2 (LT / RT) triggers to be used for throttle and braking. Based on [Silent's Adjusted Trigger Sensitivity](https://github.com/CookiePLMonster/Console-Cheat-Codes/tree/master/PS2/Gran%20Turismo%203/Adjusted%20triggers%20sensitivity) patch.   
 
-• GT3 Camera Placement : Moves the exterior camera further from the ground like Gran Turismo 5.  
+• GT5 Camera Placement : Moves the exterior camera further from the ground like Gran Turismo 5.  
 
 • GT3 Camera Placement : Moves the exterior camera closer to the ground like Gran Turismo 3.  
 
