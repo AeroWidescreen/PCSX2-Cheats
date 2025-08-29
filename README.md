@@ -1,7 +1,15 @@
 # Available Patches  
 
 ### Burnout 3: Takedown  
-• Widescreen Fix : Adds widescreen support by correcting the FOV, HUD, Menus, and FMVs. 
+• Widescreen Fix : Adds widescreen support by correcting the FOV, HUD, Menus, and FMVs.  
+
+• Button Mapping : Allows gameplay controls to be assigned to different buttons.  
+
+### Burnout Revenge  
+• Button Mapping : Allows gameplay controls to be assigned to different buttons.  
+
+### Burnout Dominator  
+• Button Mapping : Allows gameplay controls to be assigned to different buttons.  
 
 ### Gran Turismo Concept  
 • Full Trigger Sensitivity : Allows the full range of the L2 / R2 (LT / RT) triggers to be used for throttle and braking. Based on [Silent's Adjusted Trigger Sensitivity](https://github.com/CookiePLMonster/Console-Cheat-Codes/tree/master/PS2/Gran%20Turismo%20Concept/Adjusted%20triggers%20sensitivity) patch.   
