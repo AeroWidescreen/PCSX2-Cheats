@@ -1,0 +1,45 @@
+gametitle=Burnout 3: Takedown [SLUS-21050] (U)
+[Button Mapping]
+description=Allows gameplay controls to be assigned to different buttons. (Edit File)
+author=Ookami & Aero_
+// 0xFF = None
+// 0x00 = Triangle
+// 0x01 = Square
+// 0x02 = Cross
+// 0x03 = Circle
+// 0x04 = D-Pad Up
+// 0x05 = D-Pad Down
+// 0x06 = D-Pad Left
+// 0x07 = D-Pad Right
+// 0x08 = Start
+// 0x09 = Select
+// 0x0A = L1
+// 0x0B = L2
+// 0x0C = R1
+// 0x0D = R2
+// 0x0E = L3
+// 0x0F = R3
+// 0x10 = Left Stick Up
+// 0x11 = Left Stick Down
+// 0x12 = Left Stick Left
+// 0x13 = Left Stick Right
+// 0x14 = Right Stick Up
+// 0x15 = Right Stick Down
+// 0x16 = Right Stick Left
+// 0x17 = Right Stick Right
+
+patch=0,EE,0012FAAC,extended,00000002 // Accelerate
+patch=0,EE,0012F9DC,extended,00000001 // Brake
+patch=0,EE,0012FAD0,extended,00000014 // Accelerate (Analog Stick)
+patch=0,EE,0012FA00,extended,00000015 // Brake (Analog Stick)
+patch=0,EE,0012F308,extended,0000000A // Look Back
+patch=0,EE,0012F218,extended,0000000C // Boost & Impact Time
+patch=0,EE,0012F4C8,extended,0000000B // Next Music Track
+patch=0,EE,0012F410,extended,00000000 // Change View
+patch=0,EE,0012F690,extended,0000000D // Crash Breaker
+
+// DO NOT CHANGE
+// REQUIRED FOR "CHANGE VIEW" BUTTON MAPPING
+patch=0,EE,0012F411,extended,00000000
+patch=0,EE,0012F412,extended,00000005
+patch=0,EE,0012F413,extended,00000024

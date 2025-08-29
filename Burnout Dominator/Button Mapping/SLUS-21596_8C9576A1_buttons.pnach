@@ -1,0 +1,56 @@
+gametitle=Burnout Dominator [SLUS-21596] (U)
+[Button Mapping]
+description=Allows gameplay controls to be assigned to different buttons. (Edit File)
+author=Aero_
+// 0xFF = None
+// 0x00 = Triangle
+// 0x01 = Square
+// 0x02 = Cross
+// 0x03 = Circle
+// 0x04 = D-Pad Up
+// 0x05 = D-Pad Down
+// 0x06 = D-Pad Left
+// 0x07 = D-Pad Right
+// 0x08 = Start
+// 0x09 = Select
+// 0x0A = L1
+// 0x0B = L2
+// 0x0C = R1
+// 0x0D = R2
+// 0x0E = L3
+// 0x0F = R3
+// 0x10 = Left Stick Up
+// 0x11 = Left Stick Down
+// 0x12 = Left Stick Left
+// 0x13 = Left Stick Right
+// 0x14 = Right Stick Up
+// 0x15 = Right Stick Down
+// 0x16 = Right Stick Left
+// 0x17 = Right Stick Right
+
+// Button Mapping (Type A)
+patch=0,EE,00419C70,extended,00000002 // Accelerate
+patch=0,EE,00419C78,extended,00000001 // Brake
+patch=0,EE,00419C80,extended,0000000A // Look Back
+patch=0,EE,00419C88,extended,0000000C // Boost & Impact Time
+
+// Button Mapping (Type B)
+patch=0,EE,00419C74,extended,0000000C // Accelerate
+patch=0,EE,00419C7C,extended,0000000A // Brake
+patch=0,EE,00419C84,extended,00000001 // Look Back
+patch=0,EE,00419C8C,extended,00000002 // Boost & Impact Time
+
+// Button Mapping
+patch=0,EE,00215028,extended,00000014 // Accelerate (Analog Stick)
+patch=0,EE,002150F0,extended,00000015 // Brake (Analog Stick)
+patch=0,EE,0021538C,extended,00000000 // Change Camera
+patch=0,EE,002155D4,extended,0000000D // Crash Breaker
+patch=0,EE,0021536C,extended,0000000B // Next Music Track
+patch=0,EE,002152FC,extended,00000003 // Horn
+patch=0,EE,00215320,extended,0000000F // Horn (Secondary Button)
+
+// DO NOT CHANGE
+// REQUIRED FOR "CHANGE VIEW" BUTTON MAPPING
+patch=0,EE,0021538D,extended,00000000
+patch=0,EE,0021538E,extended,00000005
+patch=0,EE,0021538F,extended,00000024
