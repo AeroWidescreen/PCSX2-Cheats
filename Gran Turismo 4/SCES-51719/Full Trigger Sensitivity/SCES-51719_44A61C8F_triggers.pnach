@@ -1,6 +1,6 @@
 gametitle=Gran Turismo 4 [SCES-51719] (E)
 [Full Trigger Sensitivity]
-comment=Allows the full range of the triggers (L2 & R2) to be used for throttle and brake inputs.
+description=Allows the full range of the triggers (L2 & R2) to be used for throttle and brake inputs.
 author=Silent & Aero_
 // Throttle
 patch=1,EE,1043C274,extended,00000062

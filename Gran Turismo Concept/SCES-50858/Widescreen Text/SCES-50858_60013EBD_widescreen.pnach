@@ -1,7 +1,7 @@
 gametitle=Gran Turismo Concept 2002 Tokyo-Geneva [SCES-50858] (E)
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=Corrects the text aspect ratio when 16:9 is selected in the options menu.
+description=Corrects the text aspect ratio when 16:9 is selected in the options menu.
 author=Aero_
 patch=1,EE,2023DD94,extended,08118000 // j 0x00460000
 patch=1,EE,20460000,extended,3C09002B // lui t1,0x002B : Widescreen Mode 1st-Half of Memory Address

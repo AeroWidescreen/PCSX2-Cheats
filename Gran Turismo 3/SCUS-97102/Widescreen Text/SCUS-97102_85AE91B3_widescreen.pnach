@@ -1,7 +1,7 @@
 gametitle=Gran Turismo 3 [SCUS-97102] (U)
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=Corrects the text aspect ratio when 16:9 is selected in the options menu.
+description=Corrects the text aspect ratio when 16:9 is selected in the options menu.
 author=Aero_
 patch=1,EE,2023CBD4,extended,08124DC8 // j 0x00493720
 patch=1,EE,20493720,extended,3C09002F // lui t1,0x002F : Widescreen Mode 1st-Half of Memory Address

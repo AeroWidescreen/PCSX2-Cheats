@@ -1,7 +1,7 @@
 gametitle=Gran Turismo 4 [SCUS-97328] (U)
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=Corrects the text aspect ratio when 16:9 is selected in the options menu.
+description=Corrects the text aspect ratio when 16:9 is selected in the options menu.
 author=Aero_
 patch=1,EE,20492A30,extended,08125570 // j 004955C0
 patch=1,EE,204955C0,extended,3C090061 // lui t1,0x0061 : Widescreen Mode 1st-Half of Memory Address

@@ -1,6 +1,6 @@
 gametitle=Gran Turismo 4 [SCUS-97328] (U)
 [32-Bit Color Depth]
-comment=Color depth will remain 32-bit while using 480p.
+description=Color depth will remain 32-bit while using 480p.
 author=Aero_
 patch=1,EE,1043668C,extended,0001 // Color Depth Mode
 patch=1,EE,10436698,extended,0280 // Resolution X

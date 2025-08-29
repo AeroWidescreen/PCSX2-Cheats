@@ -1,6 +1,6 @@
 gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
 [GT5 Camera Placement]
-comment=Moves the exterior camera further from the ground like Gran Turismo 5.
+description=Moves the exterior camera further from the ground like Gran Turismo 5.
 author=Aero_
 patch=1,EE,2023FD7C,extended,0816A2B4 // j 0x005A8AD0
 patch=1,EE,205A8AD0,extended,8E180008 // lw t8,0x8(s0)

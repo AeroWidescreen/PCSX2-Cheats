@@ -1,6 +1,6 @@
 gametitle=Gran Turismo 4 [SCUS-97328] (U)
 [Digital HUD For All Camera Views]
-comment=The digital tachometer will be used for the bumper camera and roof camera.
+description=The digital tachometer will be used for the bumper camera and roof camera.
 author=Aero_
 patch=1,EE,2039CE80,extended,1000000D
 patch=1,EE,2039CEB8,extended,24020001

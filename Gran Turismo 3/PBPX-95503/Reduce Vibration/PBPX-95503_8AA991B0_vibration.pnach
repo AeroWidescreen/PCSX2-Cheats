@@ -1,5 +1,5 @@
 gametitle=Gran Turismo 3 [PBPX-95503] (U)
 [Reduce Vibration]
-comment=Reduces the strength of the controller's vibration.
+description=Reduces the strength of the controller's vibration.
 author=Aero_
 patch=1,EE,201DF498,extended,3C014170 // lui at,0x4170 : Vibration Float

@@ -1,5 +1,5 @@
 gametitle=Gran Turismo 4 [SCES-51719] (E)
 [Always Gold License Test]
-comment=A valid completion time will always reward you a gold medal.
+description=A valid completion time will always reward you a gold medal.
 author=Aero_
 patch=1,EE,203F8F18,extended,241E0002 // li fp,0x02

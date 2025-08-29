@@ -1,6 +1,6 @@
 gametitle=Gran Turismo 4 [SCUS-97328] (U)
 [Disable Dynamic Race Text] 
-comment=Disables the text that appears at the bottom of the screen. Example: "GET READY TO DRIVE"
+description=Disables the text that appears at the bottom of the screen. Example: "GET READY TO DRIVE"
 author=Aero_
 patch=1,EE,2039DA54,extended,00000000 // GET READY TO DRIVE
 patch=1,EE,2039D77C,extended,00000000 // Penalty Timer

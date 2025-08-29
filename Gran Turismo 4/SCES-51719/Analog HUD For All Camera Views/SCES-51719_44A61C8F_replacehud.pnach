@@ -1,6 +1,6 @@
 gametitle=Gran Turismo 4 [SCES-51719] (E)
 [Analog HUD For All Camera Views]
-comment=The analog tachometer will be used for the chase camera.
+description=The analog tachometer will be used for the chase camera.
 author=Aero_
 patch=1,EE,2039D178,extended,1000000D
 patch=1,EE,2039D1B0,extended,24020000

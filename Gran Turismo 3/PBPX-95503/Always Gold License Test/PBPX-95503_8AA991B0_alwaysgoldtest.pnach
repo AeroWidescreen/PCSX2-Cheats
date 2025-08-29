@@ -1,5 +1,5 @@
 gametitle=Gran Turismo 3 [PBPX-95503] (U)
 [Always Gold License Test]
-comment=A valid completion time will always reward you a gold medal.
+description=A valid completion time will always reward you a gold medal.
 author=Aero_
 patch=1,EE,201EF6B8,extended,24160002 // li s6,0x02

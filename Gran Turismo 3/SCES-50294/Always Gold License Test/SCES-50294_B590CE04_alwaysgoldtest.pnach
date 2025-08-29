@@ -1,5 +1,5 @@
 gametitle=Gran Turismo 3 [SCES-50294] (E)
 [Always Gold License Test]
-comment=A valid completion time will always reward you a gold medal.
+description=A valid completion time will always reward you a gold medal.
 author=Aero_
 patch=1,EE,201F0630,extended,24160002 // li s6,0x02

@@ -1,6 +1,6 @@
 gametitle=Gran Turismo 4 [SCES-51719] (E)
 [GT5 Camera Placement]
-comment=Moves the exterior camera further from the ground like Gran Turismo 5.
+description=Moves the exterior camera further from the ground like Gran Turismo 5.
 author=Aero_
 patch=1,EE,2037B5D4,extended,08125654 // j 00495950
 patch=1,EE,20495950,extended,8E180008 // lw t8,0x8(s0)
