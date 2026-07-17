@@ -1,0 +1,5 @@
+gametitle=Need for Speed Hot Pursuit 2 [SLUS-20362] (U)
+[Access Interior View]
+author=Aero_
+description=Allows you to use the special interior view of the Ferraris in any race.
+patch=1,EE,0031ABC2,extended,01

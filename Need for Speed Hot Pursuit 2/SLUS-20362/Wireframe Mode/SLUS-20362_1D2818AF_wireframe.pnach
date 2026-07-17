@@ -1,0 +1,8 @@
+gametitle=Need for Speed Hot Pursuit 2 [SLUS-20362] (U)
+[Wireframe Mode]
+author=Aero_
+description=Hold (L1 + L3) To Enable | Hold (L1 + R3) To Disable
+patch=1,EE,D02DE642,extended,0000FBFD
+patch=1,EE,2032F728,extended,00000001
+patch=1,EE,D02DE642,extended,0000FBFB
+patch=1,EE,2032F728,extended,00000000

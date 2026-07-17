@@ -1,0 +1,6 @@
+gametitle=Need for Speed Hot Pursuit 2 [SLUS-20362] (U)
+[Access All Cars]
+author=Aero_
+description=Gives access to all playable cars, including traffic cars.
+patch=1,EE,20183B80,extended,24020001 // addiu v0,zero,0x01
+patch=1,EE,20183CB8,extended,24020001 // addiu v0,zero,0x01

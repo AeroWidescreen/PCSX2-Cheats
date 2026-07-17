@@ -1,0 +1,5 @@
+gametitle=Need for Speed Hot Pursuit 2 [SLUS-20362] (U)
+[Complete All Events]
+author=Aero_
+description=Events in Hot Pursuit and Ultimate Racer mode will show as completed. Can also be used to access all tracks.
+patch=1,EE,203317A0,extended,00000001
