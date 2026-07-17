@@ -54,5 +54,11 @@
 
 • Widescreen Text : Corrects the aspect ratio of text for 16:9 widescreen, similar to GT4 Online.  
 
+### Need for Speed Hot Pursuit 2  
+• Access All Cars : Gives access to all playable cars, including traffic cars.  
+• Access Interior View : Allows you to use the special interior view of the Ferraris in any race.  
+• Complete All Events : Events in Hot Pursuit and Ultimate Racer mode will show as completed. Can also be used to access all tracks.  
+• Wireframe Mode : Enables a hidden wireframe mode, likely a leftover feature used by the developers.  
+
 ### Need for Speed ProStreet  
 • Widescreen Fix : Enables a native widescreen mode that was previously inaccesible and corrects the FOV.  
